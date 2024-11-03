@@ -1,5 +1,6 @@
+package oldshelf;
 
-// TODO: Complete this with record components
-public record TextBook() {
-
+public interface Book {
+    // Getter for title
+    String title();
 }
